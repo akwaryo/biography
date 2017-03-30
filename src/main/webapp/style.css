@@ -1,18 +1,88 @@
 body {
     margin: 0;
-    background-color: #26789F;
+    background-color: #d9e1e8;
 }
 
 .card {
     margin: 40px auto;
+    display: flex;
     width: 900px;
-    height: 600px;
+    height: 550px;
     background-color: #FAFAFA;
     border-radius: 2px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.main-content {
+    padding: 30px 70px;
+    width: 428px;
+}
+
+.main-content p {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+}
+
 h3 {
-    font-size: 45px;
+    font-size: 42px;
+    margin: 0;
+    font-family: 'Droid Serif', serif;
+}
+
+.side-content {
+    width: 332px;
+    position: relative;
+}
+
+.side-content img {
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+}
+
+.social {
+    position: absolute;
+    bottom: 15px;
+    right: 116px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social a img {
+    width: 32px;
+    margin-left: 27px;
+}
+
+h4 {
     font-family: 'Nunito';
+    font-size: 22px;
+    margin: 12px 0 0 0;
+}
+
+.bottom-content img {
+    width: 50px;
+    padding-right: 40px;
+}
+
+#last {
+    padding-right: 0px;
+}
+
+.subs {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#fisica {
+    padding-left: 10px;
+}
+#filosofia {
+    padding-left: 25px;
+}
+#tecnologia {
+    padding-left: 12px;
 }
