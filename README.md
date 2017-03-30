@@ -24,7 +24,7 @@ Then you can run with Tomcat, just type in the terminal, inside the project fold
 
 `mvnw org.apache.tomcat.maven:tomcat7-maven-plugin:run`
 
-Open any browser an type:
+Open any browser and type:
 
 `http://localhost:8080/biography`
 
