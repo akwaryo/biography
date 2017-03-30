@@ -5,6 +5,8 @@
     <img src="https://img.shields.io/badge/Maven-3.3.9-red.svg" alt="Maven">
 </p>
 
+---
+
 This is a Web Programming class project to practice our skills with:
 - HTML
 - CSS
